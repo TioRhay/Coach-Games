@@ -1,0 +1,69 @@
+body{
+background-color: #0d0d0d;
+margin:0;
+padding:0;
+}
+
+#Quadrado {  border: 1px solid black;
+background-color: white;
+width:700px;
+height: 500px;
+margin-left: 10%
+}
+
+#txt1{
+font-family:  'Prompt', sans-serif;
+font-size: 30px;
+color: #0d0d0d;
+}
+
+.txt2{
+font-family:  'Prompt', sans-serif;    
+font-size: 25px;
+color: #0d0d0d; 
+margin-left:30px;  
+}
+
+.caixa{
+background-color: white;
+height: 35px;
+width: 500px;
+color:#0d0d0d;
+margin-left:30px;
+}
+
+#butao{ font-family:  'Prompt', sans-serif; 
+font-weigth:regular;
+font-size: 30px;
+margin-top: 45px;
+transition: all .2s ease-in-out;
+background-color: white;
+border: 1px solid black;
+margin-left:30px}
+
+#butao:hover{ 
+transform: scale(1.1);}
+
+#legenda{ font-family:  'Prompt', sans-serif;
+color: white;
+font-size: 60px;
+margin-left: -900px ;
+}
+
+#cor{
+color:#6666ff;
+}
+
+#txt3{
+font-family:  'Prompt', sans-serif;
+color: #0d0d0d; 
+font-size: 20px;
+margin-left:30px;
+}
+
+#img3{
+width:700px;
+height:700px;
+margin-left: 1100px;
+margin-top: -600px;   
+}

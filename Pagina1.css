@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+.Cabecario { 
+background-color: #0d0d0d;
+width: 500px;
+font-family: 'Work Sans', sans-serif;
+font-weigth:regular;
+margin: 0;
+text-decoration: none;
+
+}
+
+.CabecarioH {
+font-family:'Work Sans', sans-serif;
+font-weigth: regular;
+font-size: 29px;
+color: white;
+margin-left: 250px;
+transition: all .2s ease-in-out;}
+
+.CabecarioH:hover{ 
+transform: scale(1.1);}
+
+.Cabecario p:hover{
+color: #6666ff;
+}
+
+.linha { text-decoration: none;} 
+
+body { background-color: #0d0d0d;
+margin:0;
+padding:0;
+}
+
+#Logo {font-family: 'Work Sans', sans-serif;
+font-weigth:regular;
+font-size: 30px;
+color: white;
+width: 500px;
+background:linear-gradient(90deg, rgba(102,102,255,1) 30%, rgba(241,241,241,1) 100%);
+animation: gradient 4s ease infinite;
+background-size: 400% 400%;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    to {
+        background-position: 0 50%
+    }
+}
+
+#Quadrado { 
+background-color: #0d0d0d;
+width:1700px;
+height: 700px;
+margin-left: 8%
+}
+
+#txt1{ font-family:  'Prompt', sans-serif;
+font-size: 45px;
+color: white;   
+}
+
+#txt2{
+font-family:  'Prompt', sans-serif;    
+font-size: 25px;
+color: white;
+}
+
+.txt3{font-family:  'Prompt', sans-serif;    
+font-size: 20px;
+color: #6666ff;
+}
+
+#cor{
+    color:#6666ff;
+}
+
+#butao{ font-family:  'Prompt', sans-serif; 
+font-weigth:regular;
+font-size: 30px;
+margin-top: 45px;
+transition: all .2s ease-in-out;
+background-color: #fdfdff;
+color:white;
+}
+
+#butao:hover{ 
+transform: scale(1.1);}
+
+#img1{
+width:600px;
+height:600px;
+margin-left: 1000px;
+margin-top: -500px;
+}
+
